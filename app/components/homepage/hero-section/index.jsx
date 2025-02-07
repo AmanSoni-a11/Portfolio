@@ -82,8 +82,7 @@ function HeroSection() {
               className="flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold"
               role="button"
               target="_blank"
-              href={personalData.resume}
-            >
+              href={personalData.resume}>
               <span>Get Resume</span>
               <MdDownload size={16} />
             </Link>
@@ -112,7 +111,7 @@ function HeroSection() {
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
                 <span className="text-gray-400">{`'`}</span>
-                <span className="text-amber-300">Gaurang Tyagi</span>
+                <span className="text-amber-300">Aman Soni</span>
                 <span className="text-gray-400">{`',`}</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">
@@ -130,11 +129,9 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">React Redux</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">React Router</span>
+                <span className="text-amber-300">React Native</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Git</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">MySQL</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Agile Methodologies</span>
                 <span className="text-gray-400">{"', '"}</span>

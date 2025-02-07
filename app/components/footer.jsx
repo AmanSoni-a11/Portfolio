@@ -15,10 +15,10 @@ function Footer() {
             © Developer Portfolio by{" "}
             <Link
               target="_blank"
-              href="https://www.linkedin.com/in/gaurang-tyagi12"
+              href="https://www.linkedin.com/in/aman-soni-625788231/"
               className="text-[#16f2b3]"
             >
-              Gaurang Tyagi
+              Aman Soni
             </Link>
           </p>
           <div className="flex items-center gap-5"></div>

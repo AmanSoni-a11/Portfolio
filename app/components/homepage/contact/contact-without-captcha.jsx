@@ -34,15 +34,17 @@ function ContactWithoutCaptcha() {
       setError({ ...error, required: false });
     }
 
-    const serviceID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
-    const templateID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
-    const options = { publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY };
+    const serviceID = 'service_froz1y6';
+    const templateID = 'template_qxobfxu';
+    const options = { publicKey: 'sUDSoetMH4joi5WQ0'};
+    console.log(serviceID," ",templateID," ",options,"  ",input," ", "Dtaaaa")
 
     try {
       const res = await emailjs.send(serviceID, templateID, input, options);
 
       if (res.status === 200) {
         toast.success("Message sent successfully!");
+        console.log(res,"Result in ")
         setInput({
           name: "",
           email: "",
@@ -50,7 +52,8 @@ function ContactWithoutCaptcha() {
         });
       }
     } catch (error) {
-      toast.success("Message sent successfully!");
+      toast.error("Message Not Sent!");
+      console.log(error,"Error in ")
       // toast.error(error?.text || error);
       setInput({
         name: "",

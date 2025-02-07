@@ -6,22 +6,19 @@ import travel from "/public/image/travel.jpg";
 export const projectsData = [
   {
     id: 1,
-    name: "Amazon Clone (MERN Stack)",
+    name: "Syte (Mobile Application)",
     description:
-      "This project is a full-stack Amazon clone built using the MERN stack (MongoDB, Express.js, React, and Node.js). It replicates key features of the Amazon website, including dynamic product listings, user authentication, and a fully functional shopping cart. The application allows users to browse items, add or remove products from their cart, and manage cart quantities with real-time updates. The frontend is developed using React for a responsive user interface, Redux for state management, and CSS for professional look, while the backend is powered by Node.js and Express.js to provide secure and scalable APIs. User authentication is implemented with JWT for secure sessions, and MongoDB is used to store user, product, and cart data. This clone delivers a seamless shopping experience with a user interface closely resembling Amazon's.",
+      "Syte is a React Native-based application designed to streamline the procurement of construction materials and skilled labor for vendors. I worked on the frontend development, ensuring a seamless user experience by integrating intuitive UI components, implementing API calls for real-time data fetching, and optimizing performance. Additionally, I contributed to navigation flow, state management, and interactive features to enhance user engagement.",
     tools: [
-      "HTML",
       "CSS",
       "JSX",
-      "React Js",
+      "React Native",
+      'Git',
+      'React Navigation',
+      'Third party libraries',
       "React Redux",
-      "React Router",
-      "Node Js",
-      "Express",
-      "MongoDB",
-
     ],
-    role: "Full Stack Developer",
+    role: "Mobile App Developer",
     code: "",
     demo: "",
     image: crefin,
